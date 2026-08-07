@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+dist/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+
+# Temporary
+storage/temp/
+
+# Python cache
+.pytest_cache/
+
+# Build
+build/
+
+# Generated files
+storage/downloads/audio/*
+storage/downloads/video/*
+storage/pdf/*
+storage/reports/*
+storage/qr/*
+storage/shared/*
