@@ -1,40 +1,102 @@
+# -------------------------
 # Python
+# -------------------------
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
 .venv/
 venv/
 env/
 
+# -------------------------
 # Node
+# -------------------------
 node_modules/
 dist/
 
+# -------------------------
 # VS Code
+# -------------------------
 .vscode/
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Environment
+# -------------------------
+# Environment Variables
+# -------------------------
 .env
 
-# Temporary
-storage/temp/
+# -------------------------
+# Logs
+# -------------------------
+*.log
 
-# Python cache
-.pytest_cache/
+# -------------------------
+# OS Files
+# -------------------------
+Thumbs.db
+.DS_Store
 
-# Build
-build/
+# -------------------------
+# Temporary Storage
+# -------------------------
+storage/temp/*
 
-# Generated files
+# Keep the folder
+!storage/temp/.gitkeep
+
+# -------------------------
+# Downloads
+# -------------------------
 storage/downloads/audio/*
 storage/downloads/video/*
-storage/pdf/*
-storage/reports/*
+
+!storage/downloads/audio/.gitkeep
+!storage/downloads/video/.gitkeep
+
+# -------------------------
+# PDFs
+# -------------------------
+storage/pdf/converted/*
+storage/pdf/merged/*
+storage/pdf/compressed/*
+storage/pdf/split/*
+
+!storage/pdf/converted/.gitkeep
+!storage/pdf/merged/.gitkeep
+!storage/pdf/compressed/.gitkeep
+!storage/pdf/split/.gitkeep
+
+# -------------------------
+# QR
+# -------------------------
 storage/qr/*
+
+!storage/qr/.gitkeep
+
+# -------------------------
+# Shared
+# -------------------------
 storage/shared/*
+
+!storage/shared/.gitkeep
+
+# -------------------------
+# Reports
+# -------------------------
+storage/reports/*
+
+!storage/reports/.gitkeep
+
+# -------------------------
+# Resumes
+# -------------------------
+storage/resumes/*
+
+!storage/resumes/.gitkeep
+
+# -------------------------
+# Notes
+# -------------------------
+storage/notes/*
+
+!storage/notes/.gitkeep
